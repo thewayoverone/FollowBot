@@ -1,0 +1,23 @@
+spring:
+  main:
+    banner-mode: off
+  datasource:
+    url: 'jdbc:postgres://..........'
+    username: username
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: 'org.hibernate.dialect.PostgreSQL9Dialect'
+
+tg-bot:
+  name: name
+  key: key
+
+userbot:
+  token: token
+  apiid: apiid
+  session-file: tdlight-session
+  session-data: data
+  session-downloads: downloads
